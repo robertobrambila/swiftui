@@ -1,26 +1,27 @@
 //
-//  SymbolSwapButton.swift
+//  LabelSwapButton.swift
 //  SwiftUI Components (iOS)
 //
 //  Created by Roberto Brambila on 12/17/20.
 //
 
-//  A customizeable button that swaps between two system symbols
+//  A customizeable button that swaps between two string labels
 
 import SwiftUI
 
-struct SymbolSwapButton: View {
+struct LabelSwapButton: View {
     var function : () -> Void
     
     // define our variables with defaults
-    var symbol1 : String = "pencil.circle.fill"
+    var label1 : String = "Label1"
     var color1 : Color = .black
     
-    var symbol2 : String = "checkmark.circle.fill"
+    var label2 : String = "Label2"
     var color2 : Color = .red
     
     var size : CGFloat = 24
     var weight : Font.Weight = .regular
+    var design : Font.Design = .default
     
     // allows you to revert to the initial state after a specified delay
     var swapDelay : Double = 0
@@ -40,25 +41,25 @@ struct SymbolSwapButton: View {
             }
             
         }) {
-            Image(systemName: String(swap ? symbol2 : symbol1))
-                .font(.system(size: size, weight: weight))
+            Text( "\(swap ? label2 : label1)" )
+                .font(.system(size: size, weight: weight, design: design))
                 .foregroundColor(swap ? color2 : color1)
-                
         }
             .buttonStyle(DefaultButtonStyle()) // pass on your own style here
     }
 }
 
-struct SymbolSwapButton_Previews: PreviewProvider {
+struct LabelSwapButton_Previews: PreviewProvider {
     static var previews: some View {
-        SymbolSwapButton(function: {
+        LabelSwapButton(function: {
             // Button action code goes here
-            print("Hello, world.")
+            print("Hello, World.")
         },
-        symbol1: "person.circle.fill",
-        symbol2: "trash.circle.fill",
+        label1: "Running",
+        label2: "Paused",
         size: 48,
         weight: .black,
+        design: .rounded,
         swapDelay: 1.0
         )
     }
