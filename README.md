@@ -13,6 +13,7 @@ Toggle component with custom active/inactive gradients.
 
 ### LitDivider
 *Components/LitDivider.swift*
+
 Like a DIV but stacked with a highlight/shadow.
 
 ---
