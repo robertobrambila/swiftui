@@ -7,7 +7,7 @@ A repository for sharing custom SwiftUI components, styles and examples. These a
 <img alt="Linear Gradient Toggle" src="media/LinearGradientToggle.gif">
 *(Components/LinearGradientFillToggle.swift + Styles/LinearGradientFillToggleStyles.swift)*
 
-Toggle component with custom active/inactive gradients.
+Toggle component with custom label & active/inactive gradients.
 
 ---
 
