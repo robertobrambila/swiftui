@@ -18,6 +18,6 @@ Like a DIV but stacked with a highlight/shadow. Parameters for colors, width, le
 ---
 
 ### SwapButtons
-<img alt="LabelSwap Buttony" src="media/LabelSwapButton.gif">
+<img alt="LabelSwap Button" src="media/LabelSwapButton.gif">
 
 Button components that allow you to swap between two states (either two SwiftUI Symbols or two String labels). Also include the ability to revert back to their initial state based on a optional timed delay. Parameters for symbols/labels, colors, size, styles & delay.
