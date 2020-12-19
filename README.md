@@ -13,4 +13,4 @@ Like a DIV but stacked with a highlight/shadow.
 ## SwapButtons
 *Components/SymbolSwapButton.swift* & *Components/LabelSwapButton.swift*
 
-Button components that allow you to swap between two states (between two SwiftUI Symbols or two String labels). Also include the ability to revert back to their initial state based on a timed delay.
+Button components that allow you to swap between two states (either two SwiftUI Symbols or two String labels). Also include the ability to revert back to their initial state based on a timed delay.
