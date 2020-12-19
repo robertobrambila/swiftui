@@ -4,22 +4,19 @@ A repository for sharing custom SwiftUI components, styles and examples. These a
 ---
 
 ### LinearGradientToggle
----
-<img alt="Linear Gradient Toggle" src="media/LinearGradientToggle.gif">
-*(Components/LinearGradientFillToggle.swift + Styles/LinearGradientFillToggleStyles.swift)*
 
-Toggle component with custom active/inactive gradients.
+<img alt="Linear Gradient Toggle" src="media/LinearGradientToggle.gif">
+
+Toggle component/style with custom label & active/inactive gradients. Parameters for colors, width and length.
 
 ---
 
 ### LitDivider
-*(Components/LitDivider.swift)*
 
-Like a DIV but stacked with a highlight/shadow.
+Like a DIV but stacked with a highlight/shadow. Parameters for colors, width, length and orientation.
 
 ---
 
 ### SwapButtons
-*(Components/SymbolSwapButton.swift* & *Components/LabelSwapButton.swift)*
 
-Button components that allow you to swap between two states (either two SwiftUI Symbols or two String labels). Also include the ability to revert back to their initial state based on a timed delay.
+Button components that allow you to swap between two states (either two SwiftUI Symbols or two String labels). Also include the ability to revert back to their initial state based on a timed delay. Parameters for symbols/labels, colors, size, styles & delay.
